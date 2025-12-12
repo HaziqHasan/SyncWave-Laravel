@@ -1,7 +1,7 @@
-# 1. PHP 8.2 FPM Image
+# Use official PHP image
 FROM php:8.2-fpm
 
-# 2. System dependencies
+# System dependencies
 RUN apt-get update && apt-get install -y \
     git \
     curl \
@@ -21,6 +21,14 @@ WORKDIR /var/www/html
 COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
+
+# Install Node (for Vite)
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+RUN apt-get install -y nodejs
+
+# Build Vite assets
+RUN npm install
+RUN npm run build
 
 EXPOSE 8000
 
