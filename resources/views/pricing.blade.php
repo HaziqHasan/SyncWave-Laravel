@@ -71,7 +71,7 @@
 							<li><i class="bi bi-check-circle"></i>Synced To Cloud Database</li>
 						</ul>
 						<div class="solutek-btn">
-							<a href="{{ route('pricing') }}">Choose Plan
+							<a href="#">Choose Plan
 								<div class="solutek-hover-btn hover-bx"></div>
 								<div class="solutek-hover-btn hover-bx2"></div>
 								<div class="solutek-hover-btn hover-bx3"></div>
@@ -96,7 +96,7 @@
 							<li><i class="bi bi-check-circle"></i>Synced To Cloud Database</li>
 						</ul>
 						<div class="solutek-btn">
-							<a href="{{ route('pricing') }}">Choose Plan
+							<a href="#">Choose Plan
 								<div class="solutek-hover-btn hover-bx"></div>
 								<div class="solutek-hover-btn hover-bx2"></div>
 								<div class="solutek-hover-btn hover-bx3"></div>
@@ -121,7 +121,7 @@
 							<li><i class="bi bi-check-circle"></i>Synced To Cloud Database</li>
 						</ul>
 						<div class="solutek-btn">
-							<a href="{{ route('pricing') }}">Choose Plan
+							<a href="#">Choose Plan
 								<div class="solutek-hover-btn hover-bx"></div>
 								<div class="solutek-hover-btn hover-bx2"></div>
 								<div class="solutek-hover-btn hover-bx3"></div>
@@ -146,7 +146,7 @@
 							<li><i class="bi bi-check-circle"></i>Synced To Cloud Database</li>
 						</ul>
 						<div class="solutek-btn">
-							<a href="{{ route('pricing') }}">Choose Plan
+							<a href="#">Choose Plan
 								<div class="solutek-hover-btn hover-bx"></div>
 								<div class="solutek-hover-btn hover-bx2"></div>
 								<div class="solutek-hover-btn hover-bx3"></div>

@@ -22,18 +22,8 @@ class HomeController extends Controller
     {
         return view('about');
     } 
-    public function blog2coulmn()
-    {
-        return view('blog2coulmn');
-    } 
-    public function blogdetails()
-    {
-        return view('blogdetails');
-    }
-    public function bloggrid()
-    {
-        return view('bloggrid');
-    }    
+   
+   
     public function contact()
     {
         return view('contact');
@@ -42,10 +32,7 @@ class HomeController extends Controller
     {
         return view('faq');
     }  
-    public function pricing()
-    {
-        return view('pricing');
-    } 
+  
     public function project()
     {
         return view('project');
@@ -98,10 +85,7 @@ class HomeController extends Controller
     {
         return view('servicedetails-data');
     }
-    public function company()
-    {
-        return view('testimonial');
-    } 
+  
     public function team()
     {
         return view('team');

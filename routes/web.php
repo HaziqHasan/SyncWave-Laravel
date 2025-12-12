@@ -10,12 +10,10 @@ Route::controller(HomeController::class)->group(function () {
     Route::get('/index3', 'index3')->name('index3');
     Route::get('/about', 'about')->name('about');
     Route::get('/faq','faq')->name('faq');
-    Route::get('/pricing','pricing')->name('pricing');
     Route::get('/project','project')->name('project');
     Route::get('/projectdetails','projectdetails')->name('projectdetails');
     Route::get('/service','service')->name('service');
     Route::get('/servicedetails','servicedetails')->name('servicedetails');
-    Route::get('/company','company')->name('company');
     Route::get('/servicedetails/cybersecurity','serviceCybersecurity')->name('servicedetails.cybersecurity');
     Route::get('/servicedetails/agenticai','serviceagenticai')->name('servicedetails.agenticai');
     Route::get('/servicedetails/digital','servicedigital')->name('servicedetails.digital');
