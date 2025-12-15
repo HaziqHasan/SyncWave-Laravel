@@ -70,7 +70,7 @@
 			<div class="col-xl-3 col-lg-4 col-md-6">
 				<div class="single-service-box">
 					<div class="service-thumb">
-						<img src="{{ asset('assets/images/inner/service-thumb1.png') }}" alt="thumb">
+						<img src="{{ asset('assets/images/inner/service-thumb4.png') }}" alt="thumb">
 					</div>
 					<div class="service-icon">
 						<img src="{{ asset('assets/images/inner/service-icon.png') }}" alt="icon">
@@ -130,7 +130,7 @@
 			<div class="col-xl-3 col-lg-4 col-md-6">
 				<div class="single-service-box">
 					<div class="service-thumb">
-						<img src="{{ asset('assets/images/inner/service-thumb4.png') }}" alt="thumb">
+						<img src="{{ asset('assets/images/inner/service-thumb1.png') }}" alt="thumb">
 					</div>
 					<div class="service-icon">
 						<img src="{{ asset('assets/images/inner/service-icon.png') }}" alt="icon">
@@ -150,7 +150,7 @@
 			<div class="col-xl-3 col-lg-4 col-md-6">
 				<div class="single-service-box">
 					<div class="service-thumb">
-						<img src="{{ asset('assets/images/inner/service-thumb1.png') }}" alt="thumb">
+						<img src="{{ asset('assets/images/inner/service-thumb4.png') }}" alt="thumb">
 					</div>
 					<div class="service-icon">
 						<img src="{{ asset('assets/images/inner/service-icon.png') }}" alt="icon">
@@ -170,7 +170,7 @@
 			<div class="col-xl-3 col-lg-4 col-md-6">
 				<div class="single-service-box">
 					<div class="service-thumb">
-						<img src="{{ asset('assets/images/inner/service-thumb1.png') }}" alt="thumb">
+						<img src="{{ asset('assets/images/inner/service-thumb2.png') }}" alt="thumb">
 					</div>
 					<div class="service-icon">
 						<img src="{{ asset('assets/images/inner/service-icon.png') }}" alt="icon">
@@ -190,7 +190,7 @@
 			<div class="col-xl-3 col-lg-4 col-md-6">
 				<div class="single-service-box">
 					<div class="service-thumb">
-						<img src="{{ asset('assets/images/inner/service-thumb1.png') }}" alt="thumb">
+						<img src="{{ asset('assets/images/inner/service-thumb3.png') }}" alt="thumb">
 					</div>
 					<div class="service-icon">
 						<img src="{{ asset('assets/images/inner/service-icon.png') }}" alt="icon">

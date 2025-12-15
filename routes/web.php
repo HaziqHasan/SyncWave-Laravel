@@ -6,8 +6,8 @@ use App\Http\Controllers\HomeController;
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'index')->name('index');
     Route::get('/index', 'index')->name('index');
-    Route::get('/index2', 'index2')->name('index2');
-    Route::get('/index3', 'index3')->name('index3');
+    // Route::get('/index2', 'index2')->name('index2');
+    // Route::get('/index3', 'index3')->name('index3');
     Route::get('/about', 'about')->name('about');
     Route::get('/faq','faq')->name('faq');
     Route::get('/project','project')->name('project');

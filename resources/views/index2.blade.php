@@ -1,157 +1,37 @@
-@extends('layout.layout2')
+@extends('layout.layout1')
 
-@section('content2')
+@section('content')
 
-<!--==================================================-->
-	<!-- Start Main Side bar -->
-<!--==================================================-->
-    <div class="xs-sidebar-group info-group">
-        <div class="xs-overlay xs-bg-black"></div>
-        <div class="xs-sidebar-widget">
-            <div class="sidebar-widget-container">
-                <!-- widget button -->
-                <div class="widget-heading">
-                    <a href="#" class="close-side-widget">
-                        <i class="far fa-times-circle"></i>
-                    </a>
-                </div>
-                <div class="sidebar-textwidget">
-                    <!-- Sidebar Info Content -->
-                    <div class="sidebar-info-contents">
-                        <div class="content-inner">
-								<div class="nav-logo">
-								<a href="{{ route('index') }}"><img src="{{ asset('assets/images/logo.png') }}" alt="logo"></a>
-							</div>
-                            <!-- widget search -->
-                            <div class="widget-search">
-                                <div class="widget">
-                                    <form action="https://formspree.io/f/myyleorq" method="POST">
-                                        <input id="search2" type="text" name="s" value="" placeholder="Search Product" title="Search for:" autocomplete="off">
-                                        <button type="submit" class="icon">
-                                            <i class="bi bi-search"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                            <!-- Widget wrapper End -->
-                            <div class="product-category">
-                                <!-- widget title -->
-                                <h3 class="widget-title">Product Categories</h3>
-                                <ul class="list-style-one">
-                                    <li><a href="#">IT Solutions<span>(5)</span></a></li>
-                                    <li><a href="#">Businesses<span>(6)</span></a></li>
-                                    <li><a href="#">IT Service<span>(4)</span></a></li>
-                                    <li><a href="#">UI/UX Design<span>(8)</span></a></li>
-                                </ul>
-                            </div>
-                            <!-- Recent Gallery -->
-                            <div class="recent-gallery">
-                                <!-- widget title -->
-                                <h3 class="widget-title">Recent Post</h3>
-                                <ul>
-                                    <li>
-                                        <div class="widget-gallery-thumb">
-											<a href="#"><img src="{{ asset('assets/images/inner/recent-post.png') }}" alt=""></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="widget-gallery-thumb">
-											<a href="#"><img src="{{ asset('assets/images/inner/recent-post2.png') }}" alt=""></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="widget-gallery-thumb">
-											<a href="#"><img src="{{ asset('assets/images/inner/recent-post3.png') }}" alt=""></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="widget-gallery-thumb">
-											<a href="#"><img src="{{ asset('assets/images/inner/recent-post4.png') }}" alt=""></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="widget-gallery-thumb">
-                                            <a href="#"><img src="assets/images/inner/recent-post3.png" alt=""></a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="widget-gallery-thumb">
-                                            <a href="#"><img src="assets/images/inner/recent-post2.png" alt=""></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- widget title -->
-                            <h3 class="widget-title">Tags</h3>
-                            <div class="sidebar-tag-item">
-                                <ul>
-                                    <li><a href="#">Developer</a></li>
-                                    <li><a href="#">UI Designer</a></li>
-                                    <li><a href="#">Marketing</a></li>
-									<li><a href="#">Business</a></li>
-                                </ul>
-                            </div>
-                            <!-- Social icon -->
-                            <div class="category-icon">
-                                <!-- widget title -->
-                                <h3 class="widget-title">Social List</h3>
-                                <div class="follow-company-icon style-two">
-                                    <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                                    <a href="#"> <i class="fab fa-pinterest"></i> </a>
-                                    <a href="#"> <i class="fab fa-instagram"> </i> </a>
-                                    <a href="#"> <i class="fab fa-google"></i> </a>
-                                </div>
-                            </div>
-                            <!-- icon End -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!--==================================================-->
-<!-- Start Main Side bar -->
-<!--==================================================-->
+	<!--==================================================-->
+	<!-- Start solutek hero Area -->
+	<!--==================================================-->
 
-
-
-
-
-<!--==================================================-->
-<!-- Start solutek hero Area style-two-->
-<!--==================================================-->
-
-
-	<div class="hero-area style-two d-flex align-items-center">
+	<div class="hero-area d-flex align-items-center">
 		<div class="container">
 			<div class="row hero align-items-center">
 				<div class="col-lg-6">
 					<div class="hero-contant">
-						<h5>SOLUTEK IT SERVICES</h5>
-						<h1>Empowering Your</h1>
-						<h1>Digital Future</h1>
-						<p>Where your interests international networks intersect provid custom software solutions for any value software.</p>
+						<h5>Syncwave Corporation</h5>
+						<h1>The Beauty Behind</h1>
+						<h1>IT Services.</h1>
+						<p>Where your interests international networks intersect provide
+							custom software solutions for any value software.</p>
 						<div class="solutek-btn">
-							<a href="{{ route('about') }}" class="btn-2">EXPLORE MORE</a>
+							<a href="{{ route('about') }}">EXPLORE MORE
+								<div class="solutek-hover-btn hover-bx"></div>
+								<div class="solutek-hover-btn hover-bx2"></div>
+								<div class="solutek-hover-btn hover-bx3"></div>
+								<div class="solutek-hover-btn hover-bx4"></div>
+							</a>
 						</div>
-							<div class="hero-btn-shape bounce-animate-3">
-							<img src="{{ asset('assets/images/home-two/hero-btn-shape.png') }}" alt="shape">
+						<div class="hero-video-icon">	
+							<!-- <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=Wx48y_fOfiY"><i class="bi bi-play"></i><span>WATCH VIDEO</span></a> -->
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="hero-thumb">
-						<img src="{{ asset('assets/images/home-two/hero2-thu.png') }}" alt="hero-thumb">
-
-						<div class="hero-thumb-shape bounce-animate-3">
-							<img src="{{ asset('assets/images/home-two/hero2-shape.png') }}" alt="shape">
-						</div>
-						<div class="hero-thumb-shape2 rotateme">
-							<img src="{{ asset('assets/images/home-two/border-shape.png') }}" alt="shape">
-						</div>
-						<div class="hero-video-icon">	
-							<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=Wx48y_fOfiY"><i class="bi bi-play"></i></a>
-						</div>
+						<img src="{{ asset('assets/images/hero-thumb.png') }}" alt="hero-thumb">
 					</div>
 				</div>
 			</div>
@@ -166,464 +46,436 @@
 
 
 <!--==================================================-->
-	<!-- Start solutek marquee-section  -->
-<!--==================================================-->
-	<section class="marquee-section">
-		<div class="inner-container">
-			<div class="marquee">
-				<div class="marquee-block"> 
-					<!-- content-box -->
-					<div class="content-box">
-						<h6 class="title"><a href="#"><i class="fas fa-star-of-life"></i>Experience Seamless IT Solutions</a></h6>
-					</div>
-					<!-- content-box -->
-					<div class="content-box">
-						<h6 class="title"><a href="#"><i class="fas fa-star-of-life"></i>Experience Seamless IT Solutions</a></h6>
-					</div>
-					<!-- content-box -->
-					<div class="content-box">
-						<h6 class="title"><a href="#"><i class="fas fa-star-of-life"></i>Experience Seamless IT Solutions</a></h6>
-					</div>
-				</div>
-				<div class="marquee-block"> 
-					<!-- content-box -->
-					<div class="content-box">
-						<h6 class="title"><a href="#"><i class="fas fa-star-of-life"></i>Experience Seamless IT Solutions</a></h6>
-					</div>
-					<!-- content-box -->
-					<div class="content-box">
-						<h6 class="title"><a href="#"><i class="fas fa-star-of-life"></i>Experience Seamless IT Solutions</a></h6>
-					</div>
-					<!-- content-box -->
-					<div class="content-box">
-						<h6 class="title"><a href="#"><i class="fas fa-star-of-life"></i>Experience Seamless IT Solutions</a></h6>
-					</div>
-				</div>
-		  	</div>
-		</div>
-	</section>
-<!--==================================================-->
-<!-- End solutek marquee-section  -->
+<!-- Start solutek about Area -->
 <!--==================================================-->
 
-
-
-
-<!--==================================================-->
-<!-- start solutek service Area style two-->
-<!--==================================================-->
-<div class="service-area style-two">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title text-center">
-					<h5 class="section-sub-title">SOLUTEK SERVICES</h5>
-					<h1 class="section-main-title">We Provide Exclusive Service</h1>
-					<h1 class="section-main-title">For Your Business</h1>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-service-box">
-					<div class="service-box-inner">
-						<div class="service-content">
-							<h4 class="service-title">Augmented Reality</h4>
-							<p class="service-des">paradigms. Monotonectally extend open-source
-								mvia competitive methods of empowerment dri
-								revolutionize stand- business
-							</p>
+	<div class="feature-area">
+		<div class="container">
+			<div class="row about align-items-center">
+				<div class="feature-box">
+					<div class="feature-sinble-single-box">
+						<div class="feature-icon">
+							<img src="{{ asset('assets/images/feature1.png') }}" alt="feature1">
 						</div>
-						<div class="service-icon">
-							<img src="assets/images/home-two/service-icon.png" alt="icon">
+						<div class="feature-content">
+							<h3 class="feature-title">Cybersecurity Services</h3>
+							<p class="feature-text">Protect your business from evolving cyber threats with our full-spectrum cybersecurity services</p>
+						</div>
+					</div>
+					<div class="feature-sinble-single-box">
+						<div class="feature-icon">
+							<img src="{{ asset('assets/images/feature2.png') }}" alt="feature1">
+						</div>
+						<div class="feature-content">
+							<h3 class="feature-title">Digital Marketing</h3>
+							<p class="feature-text">Grow your brand with data-driven digital marketing strategies designed to boost visibility</p>
+						</div>
+					</div>
+					<div class="feature-sinble-single-box">
+						<div class="feature-icon">
+							<img src="{{ asset('assets/images/feature3.png') }}" alt="feature1">
+						</div>
+						<div class="feature-content">
+							<h3 class="feature-title">Agentic AI </h3>
+							<p class="feature-text"> Empower your business with next-generation Agentic AI systems that autonomously plan</p>
+						</div>
+					</div>
+					<div class="feature-sinble-single-box">
+						<div class="feature-icon">
+							<img src="{{ asset('assets/images/feature4.png') }}" alt="feature1">
+						</div>
+						<div class="feature-content">
+							<h3 class="feature-title">ERP Solutions</h3>
+							<p class="feature-text"> Streamline and automate your business operations with our powerful ERP solutions</p>
+						</div>
+					</div>
+					<div class="feature-sinble-single-box">
+						<div class="feature-icon">
+							<img src="{{ asset('assets/images/feature5.png') }}" alt="feature1">
+						</div>
+						<div class="feature-content">
+							<h3 class="feature-title">Robotic Automation</h3>
+							<p class="feature-text">Automate repetitive, rule-based tasks and streamline your business operations with our advanced RPA solutions</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-service-box">
-					<div class="service-box-inner">
-						<div class="service-content">
-							<h4 class="service-title">Managed IT Services</h4>
-							<p class="service-des">paradigms. Monotonectally extend open-source
-								mvia competitive methods of empowerment dri
-								revolutionize stand- business
-							</p>
-						</div>
-						<div class="service-icon">
-							<img src="assets/images/home-two/service-icon2.png" alt="icon">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-service-box">
-					<div class="service-box-inner">
-						<div class="service-content">
-							<h4 class="service-title">Machine Learning</h4>
-							<p class="service-des">paradigms. Monotonectally extend open-source
-								mvia competitive methods of empowerment dri
-								revolutionize stand- business
-							</p>
-						</div>
-						<div class="service-icon">
-							<img src="assets/images/home-two/ser-icon3.png" alt="icon">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		</div>	
 	</div>
-</div>
-	
-<!--==================================================-->
-<!-- end solutek service Area style two-->
-<!--==================================================-->
 
+<!--==================================================-->
+<!-- end solutek about Area -->
+<!--==================================================-->
 
 
 
 
 <!--==================================================-->
-<!-- start solutek about Area style two-->
+<!-- start solutek about Area -->
 <!--==================================================-->
 
-<div class="about-area style-two">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6">
-				<div class="about-thumbail">
+	<div class="about-area">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-lg-6">
 					<div class="about-thumb">
-						<img src="assets/images/home-two/about-thu2.png" alt="about-thumb">	
-					</div>
-					<div class="about-shape">
-						<img src="assets/images/home-two/about-shape.png" alt="about1">
+						<img src="{{ asset('assets/images/about-thumb.png') }}" alt="about-thumb">
+						<div class="about-shape">
+							<img src="{{ asset('assets/images/about1.png') }}" alt="about1">
+						</div>
+						<h4 class="about-title">BEST IT SOLUTION</h4>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="about-section-content">
+				<div class="col-lg-6">
 					<div class="section-title text-left">
-						<h5 class="section-sub-title">SOLUTEK COMPANY</h5>
-						<h1 class="section-main-title">Essential IT Solutions for</h1>
-						<h1 class="section-main-title">Modern Businesses</h1>
-						<p class="section-title-descr">Monotonectally repurpose maintainable infrastruct whereas solutek in
-							fermentum quis tempo sapien maximus design.</p>
+						<h5 class="section-sub-title">SyncWave Corporation</h5>
+						<h1 class="section-main-title">Essential IT Solutions For</h1>
+						<h1 class="section-main-title">Modern <span>Businesses.</span></h1>
+						<p class="section-title-descr">We secure your systems, data, and network with proactive monitoring.</p>
 					</div>
-					<div class="about-list-item">
-						<ul>
-							<li><img src="assets/images/home-two/about-icon2.png" alt="icon">Website & Mobile application design & Development</li>
-							<li><img src="assets/images/home-two/about-icon2.png" alt="icon">Professional User Experince & Interface researching</li>
-						</ul>
+					<div class="about-box d-flex align-items-center">
+						<div class="about-icon">
+							<img src="{{ asset('assets/images/about4.png') }}" alt="about4">
+						</div>
+						<div class="about-tiltle">
+							<h3>Cloud Based Solution</h3>
+						</div>
+					</div>
+					<div class="about-text">
+						<p>Build smart AI agents that automate complex tasks and run your business processes intelligently.</p>
 					</div>
 					<div class="solutek-btn">
-						<a href="{{ route('about') }}" class="btn-2">EXPLORE MORE</a>
+						<a href="{{ route('about') }}">EXPLORE MORE
+							<div class="solutek-hover-btn hover-bx"></div>
+							<div class="solutek-hover-btn hover-bx2"></div>
+							<div class="solutek-hover-btn hover-bx3"></div>
+							<div class="solutek-hover-btn hover-bx4"></div>
+						</a>
 					</div>
-					<div class="about-contact-box">
-						<div class="call-box">
-							<div class="about-contact">
-								<img src="assets/images/home-two/call-icon.png" alt="icon">
-							</div>
-							<div class="about-contact-content">
-								<h4>Contact Us</h4>
-								<p>12 345 6732 5894</p>
-							</div>
-						</div>
-				   </div>
-				</div>	
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 <!--==================================================-->
-<!-- end solutek about Area style-two-->
+<!-- end solutek about Area -->
 <!--==================================================-->
 
 
 
 
+
 <!--==================================================-->
-<!--start solutek team Area style-two-->
+<!-- start solutek service Area -->
 <!--==================================================-->
-<div class="team-area style-two">
+
+<div class="sservice-area">
 	<div class="container">
-		<div class="row">
+		<div class="row align-items-center">
 			<div class="col-lg-12">
 				<div class="section-title text-center">
-					<h5 class="section-sub-title">OUR TEAM MEMBER</h5>
-					<h1 class="section-main-title">Dedicated Team Members</h1>
+					<h5 class="section-sub-title">SyncWave Corporation</h5>
+					<h1 class="section-main-title">How Professional IT Services</h1>
+					<h1 class="section-main-title">Can Drive <span>Success.</span></h1>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service2.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">CyberSecurity</h3>
+						<p class="service-text"> We secure your systems, data, and network with proactive monitoring.</p>
+						<div class="service-btn">
+							<a href="{{ route('servicedetails.cybersecurity') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service1.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">Web Development</h3>
+						<p class="service-text"> We build fast, secure, and visually appealing websites tailored to your business needs.</p>
+						<div class="service-btn">
+							<a href="{{ route('servicedetails.webdev')}}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service2.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">Agentic AI Solutions</h3>
+						<p class="service-text"> Empower business with next-generation Agentic AI systems that autonomously plan.</p>
+						<div class="service-btn">
+							<a href="{{ route('servicedetails.agenticai') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service3.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">Digital Marketing</h3>
+						<p class="service-text">Boost your online visibility with targeted digital strategies built for conversions.</p>
+						<div class="service-btn">
+							<a href="{{ route('servicedetails.digital') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service2.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">App Development</h3>
+						<p class="service-text">We develop intuitive, scalable apps that deliver amazing user experiences and business value.</p>
+						<div class="service-btn">
+							<a href="{{  route('servicedetails.appdev') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service4.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">ERP Solutions</h3>
+						<p class="service-text">Centralize business operations with a fully integrated ERP system to your needs.</p>
+						<div class="service-btn">
+							<a href="{{ route('servicedetails.erp')  }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service4.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">Data Engineering</h3>
+						<p class="service-text">We build robust data pipelines, secure dataflows for decision-making at scale.</p>
+						<div class="service-btn">
+							<a href="{{  route('servicedetails.data') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service3.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">Robotic Automation</h3>
+						<p class="service-text">Our bots work 24/7, reduce errors, and free your team to focus on high-value work.</p>
+						<div class="service-btn">
+							<a href="{{  route('servicedetails.data') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xl-3 col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="single-team-thumb">
-						<img src="assets/images/home-two/team-thu.png" alt="thumb">
-						<div class="team-content">
-							<div class="team-inner-title">
-								<h4><a href="{{ route('teamdetails') }}">Al-Amin Hossain</a></h4>
-								<p>UI/UX DESIGNER</p>
-							</div>
-							<div class="team-social-icon">
-								<ul>
-									<li><a href="#">facebook</a></li>
-									<li><a href="#">twitter</a></li>
-									<li><a href="#">behance</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="single-team-thumb">
-						<img src="assets/images/home-two/team-thu2.png" alt="thumb">
-						<div class="team-content">
-							<div class="team-inner-title">
-								<h4><a href="{{ route('teamdetails') }}">Al-Amin Hossain</a></h4>
-								<p>UI/UX DESIGNER</p>
-							</div>
-							<div class="team-social-icon">
-								<ul>
-									<li><a href="#">facebook</a></li>
-									<li><a href="#">twitter</a></li>
-									<li><a href="#">behance</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="single-team-thumb">
-						<img src="assets/images/home-two/team-thu3.png" alt="thumb">
-						<div class="team-content">
-							<div class="team-inner-title">
-								<h4><a href="{{ route('teamdetails') }}">Al-Amin Hossain</a></h4>
-								<p>UI/UX DESIGNER</p>
-							</div>
-							<div class="team-social-icon">
-								<ul>
-									<li><a href="#">facebook</a></li>
-									<li><a href="#">twitter</a></li>
-									<li><a href="#">behance</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="single-team-thumb">
-						<img src="assets/images/home-two/team-thu4.png" alt="thumb">
-						<div class="team-content">
-							<div class="team-inner-title">
-								<h4><a href="{{ route('teamdetails') }}">Al-Amin Hossain</a></h4>
-								<p>UI/UX DESIGNER</p>
-							</div>
-							<div class="team-social-icon">
-								<ul>
-									<li><a href="#">facebook</a></li>
-									<li><a href="#">twitter</a></li>
-									<li><a href="#">behance</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="service-shape bounce-animate3">
+			<img src="{{ asset('assets/images/service5.png') }}" alt="service5">
+		</div>
+		<div class="service-shape2">
+			<img src="{{ asset('assets/images/service7.png') }}" alt="service5">
+		</div>
+		<div class="service-shape3 bounce-animate4">
+			<img src="{{ asset('assets/images/service8.png') }}" alt="service5">
 		</div>
 	</div>
 </div>
 
 <!--==================================================-->
-<!-- end solutek team Area style-two-->
+<!-- end solutek service Area -->
 <!--==================================================-->
 
 
 
 
+
 <!--==================================================-->
-<!-- start solutek project Area style-two-->
+<!-- start solutek project Area -->
 <!--==================================================-->
 
-<div class="project-area styl-two">
+<!-- <div class="project-area">
 	<div class="container-fluid">
-		<div class="row project-section">
+		<div class="row project align-items-center">
 			<div class="col-lg-6">
 				<div class="section-title text-left">
-					<h5 class="section-sub-title">OUR PROJECT NOW</h5>
-					<h1 class="section-main-title">Technology's Evolution</h1>
-					<h1 class="section-main-title">Towards Brilliance</h1>
+					<h5 class="section-sub-title">SyncWave PROJECT</h5>
+					<h1 class="section-main-title">Explore Our Recent <span>Projects.</span></h1>
 				</div>
 			</div>
 			<div class="col-lg-6">
+				<div class="project-right">
+					<div class="solutek-btn">
+						<a href="{{ route('project') }}">VIEW  PROJECT DETAIL
+							<div class="solutek-hover-btn hover-bx"></div>
+							<div class="solutek-hover-btn hover-bx2"></div>
+							<div class="solutek-hover-btn hover-bx3"></div>
+							<div class="solutek-hover-btn hover-bx4"></div>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="row project-carousel">
-			<div class="project_item owl-carousel">
-				<div class="col-xl-12 col-lg-12">
+		<div class="row carousel">
+			<div class="project_list owl-carousel">
+				<div class="col-lg-12 col-md-12">
 					<div class="project-single-box">
 						<div class="project-thumb">
-							<img src="assets/images/home-two/project-thu.png" alt="project-thumb">
+							<img src="{{ asset('assets/images/project1.png') }}" alt="project1">
 						</div>
 						<div class="project-content">
-							<h4 class="project-title"><a href="{{ route('projectdetails') }}">Product Development</a></h4>
-							<p class="project-des">Creative Theme</p>
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">Project for Marketing</a></h3>
+							<p class="project-text">Software</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb style-two">
-							<img src="assets/images/home-two/project-thu2.png" alt="project-thumb">
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href="{{ route('projectdetails') }}">Product Development</a></h4>
-							<p class="project-des">Creative Theme</p>
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb style-three">
-							<img src="assets/images/home-two/project-thu3.png" alt="project-thumb">
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href="{{ route('projectdetails') }}">Product Development</a></h4>
-							<p class="project-des">Creative Theme</p>
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-12 col-lg-12">
-					<div class="project-single-box">
-						<div class="project-thumb style-four">
-							<img src="assets/images/home-two/project-thu4.png" alt="project-thumb">
-						</div>
-						<div class="project-content">
-							<h4 class="project-title"><a href="{{ route('projectdetails') }}">Product Development</a></h4>
-							<p class="project-des">Creative Theme</p>
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape rotateme">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-12 col-lg-12">
+				<div class="col-lg-12 col-md-12">
 					<div class="project-single-box">
 						<div class="project-thumb">
-							<img src="assets/images/home-two/project-thu.png" alt="project-thumb">
+							<img src="{{ asset('assets/images/project2.png') }}" alt="project1">
 						</div>
 						<div class="project-content">
-							<h4 class="project-title"><a href="{{ route('projectdetails') }}">Product Development</a></h4>
-							<p class="project-des">Creative Theme</p>
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">Digital Product Design</a></h3>
+							<p class="project-text">Software</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-12 col-lg-12">
+				<div class="col-lg-12 col-md-12">
 					<div class="project-single-box">
-						<div class="project-thumb style-two">
-							<img src="assets/images/home-two/project-thu2.png" alt="project-thumb">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project1.png') }}" alt="project1">
 						</div>
 						<div class="project-content">
-							<h4 class="project-title"><a href="{{ route('projectdetails') }}">Product Development</a></h4>
-							<p class="project-des">Creative Theme</p>
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">Project for Marketing</a></h3>
+							<p class="project-text">Software</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-12 col-lg-12">
+				<div class="col-lg-12 col-md-12">
 					<div class="project-single-box">
-						<div class="project-thumb style-three">
-							<img src="assets/images/home-two/project-thu3.png" alt="project-thumb">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project2.png') }}" alt="project1">
 						</div>
 						<div class="project-content">
-							<h4 class="project-title"><a href="{{ route('projectdetails') }}">Product Development</a></h4>
-							<p class="project-des">Creative Theme</p>
-						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
-						</div>
-						<div class="project-shape">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">Digital Product Design</a></h3>
+							<p class="project-text">Software</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-12 col-lg-12">
+				<div class="col-lg-12 col-md-12">
 					<div class="project-single-box">
-						<div class="project-thumb style-four">
-							<img src="assets/images/home-two/project-thu4.png" alt="project-thumb">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project3.png') }}" alt="project1">
 						</div>
 						<div class="project-content">
-							<h4 class="project-title"><a href="{{ route('projectdetails') }}">Product Development</a></h4>
-							<p class="project-des">Creative Theme</p>
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">Software Development</a></h3>
+							<p class="project-text">Software</p>
 						</div>
-						<div class="project-icon">
-							<span><i class="bi bi-arrow-right"></i></span>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12">
+					<div class="project-single-box">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project4.png') }}" alt="project1">
 						</div>
-						<div class="project-shape rotateme">
-							<img src="assets/images/home-two/border-shape.png" alt="shape">
+						<div class="project-content">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">CMC Softwar Solution</a></h3>
+							<p class="project-text">Software</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12">
+					<div class="project-single-box">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project3.png') }}" alt="project1">
+						</div>
+						<div class="project-content">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">Software Development</a></h3>
+							<p class="project-text">Software</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12">
+					<div class="project-single-box">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project5.png') }}" alt="project1">
+						</div>
+						<div class="project-content">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">App Development</a></h3>
+							<p class="project-text">Software</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12">
+					<div class="project-single-box">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project4.png') }}" alt="project1">
+						</div>
+						<div class="project-content">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">CMC Softwar Solution</a></h3>
+							<p class="project-text">Software</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12">
+					<div class="project-single-box">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project3.png') }}" alt="project1">
+						</div>
+						<div class="project-content">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">Software Development</a></h3>
+							<p class="project-text">Software</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12">
+					<div class="project-single-box">
+						<div class="project-thumb">
+							<img src="{{ asset('assets/images/project2.png') }}" alt="project1">
+						</div>
+						<div class="project-content">
+							<h3 class="project-title"><a href="{{ route('projectdetails') }}">Digital Product Design</a></h3>
+							<p class="project-text">Software</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="project-bg-shape rotateme">
-		<img src="assets/images/home-two/project-bg-shape.png" alt="shape">
-	</div>
-</div>
-
+</div> -->
 
 <!--==================================================-->
-<!-- end solutek project Area style-two-->
+<!-- end solutek project Area -->
 <!--==================================================-->
-
-
-
 
 
 
 <!--==================================================-->
 <!-- start solutek-brand Area -->
 <!--==================================================-->
+
 
 <div class="brand-area">
 	<div class="container">
@@ -632,35 +484,35 @@
 				<div class="col-lg-12">
 					<div class="brand-box">
 						<div class="brand-thumb">
-							<img src="assets/images/brand-img.png" alt="brand img">
+							<img src="{{ asset('assets/images/brand-img.png') }}" alt="brand img">
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-12">
 					<div class="brand-box">
 						<div class="brand-thumb">
-							<img src="assets/images/brand-img1.png" alt="brand img">
+							<img src="{{ asset('assets/images/brand-img1.png') }}" alt="brand img">
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-12">
 					<div class="brand-box">
 						<div class="brand-thumb">
-							<img src="assets/images/brand-img2.png" alt="brand img">
+							<img src="{{ asset('assets/images/brand-img2.png') }}" alt="brand img">
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-12">
 					<div class="brand-box">
 						<div class="brand-thumb">
-							<img src="assets/images/brand-img3.png" alt="brand img">
+							<img src="{{ asset('assets/images/brand-img3.png') }}" alt="brand img">
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-12">
 					<div class="brand-box">
 						<div class="brand-thumb">
-							<img src="assets/images/brand-img4.png" alt="brand img">
+							<img src="{{ asset('assets/images/brand-img4.png') }}" alt="brand img">
 						</div>
 					</div>
 				</div>
@@ -668,6 +520,7 @@
 		</div>
 	</div>
 </div>
+
 
 <!--==================================================-->
 <!-- end solutek-brand Area -->
@@ -677,17 +530,232 @@
 
 
 
+
 <!--==================================================-->
-<!-- Start solutek testimonial Area style-two-->
+<!-- start solutek-pricing Area -->
 <!--==================================================-->
 
-<div class="testimonial-area style-two">
+<!-- 
+	<div class="pricing-area">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-7">
+					<div class="section-title text-left">
+						<h5 class="section-sub-title">Start Business</h5>
+						<h1 class="section-main-title">Choose Your Best Plan</h1>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="section-title text-left">
+						<p class="section-descr">paradigms. Monotonectally extend open-source mvia competitive methods
+						of empowerment dri revolutionize stand- business.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="pricing-single-box">
+						<div class="pricing-head">
+							<h1 class="priching-doller">$49</h1>
+							<h3 class="priching-title">Standard Plan</h3>
+						</div>
+						<div class="pricing-body">
+							<ul class="pricing-list">
+								<li><i class="bi bi-check-circle"></i>30 Days Trial Features</li>
+								<li><i class="bi bi-check-circle"></i>Multi-Language Content</li>
+								<li><i class="bi bi-check-circle"></i> Unlimited Features</li>
+								<li><i class="bi bi-check-circle"></i> Data backup and recovery</li>
+								<li><i class="bi bi-check-circle"></i>Synced To Cloud Database</li>
+							</ul>
+							<div class="solutek-btn">
+								<a href="#">Choose Plan
+									<div class="solutek-hover-btn hover-bx"></div>
+									<div class="solutek-hover-btn hover-bx2"></div>
+									<div class="solutek-hover-btn hover-bx3"></div>
+									<div class="solutek-hover-btn hover-bx4"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="pricing-single-box">
+						<div class="pricing-head">
+							<h1 class="priching-doller">$59</h1>
+							<h3 class="priching-title">Basic Plan</h3>
+						</div>
+						<div class="pricing-body">
+							<ul class="pricing-list">
+								<li><i class="bi bi-check-circle"></i>30 Days Trial Features</li>
+								<li><i class="bi bi-check-circle"></i>Multi-Language Content</li>
+								<li><i class="bi bi-check-circle"></i> Unlimited Features</li>
+								<li><i class="bi bi-check-circle"></i> Data backup and recovery</li>
+								<li><i class="bi bi-check-circle"></i>Synced To Cloud Database</li>
+							</ul>
+							<div class="solutek-btn">
+								<a href="#">Choose Plan
+									<div class="solutek-hover-btn hover-bx"></div>
+									<div class="solutek-hover-btn hover-bx2"></div>
+									<div class="solutek-hover-btn hover-bx3"></div>
+									<div class="solutek-hover-btn hover-bx4"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="pricing-single-box">
+						<div class="pricing-head">
+							<h1 class="priching-doller">$69</h1>
+							<h3 class="priching-title">Beginner Plan</h3>
+						</div>
+						<div class="pricing-body">
+							<ul class="pricing-list">
+								<li><i class="bi bi-check-circle"></i>30 Days Trial Features</li>
+								<li><i class="bi bi-check-circle"></i>Multi-Language Content</li>
+								<li><i class="bi bi-check-circle"></i> Unlimited Features</li>
+								<li><i class="bi bi-check-circle"></i> Data backup and recovery</li>
+								<li><i class="bi bi-check-circle"></i>Synced To Cloud Database</li>
+							</ul>
+							<div class="solutek-btn">
+								<a href="#">Choose Plan
+									<div class="solutek-hover-btn hover-bx"></div>
+									<div class="solutek-hover-btn hover-bx2"></div>
+									<div class="solutek-hover-btn hover-bx3"></div>
+									<div class="solutek-hover-btn hover-bx4"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-6">
+					<div class="pricing-single-box">
+						<div class="pricing-head">
+							<h1 class="priching-doller">$79</h1>
+							<h3 class="priching-title">Premium Plan</h3>
+						</div>
+						<div class="pricing-body">
+							<ul class="pricing-list">
+								<li><i class="bi bi-check-circle"></i>30 Days Trial Features</li>
+								<li><i class="bi bi-check-circle"></i>Multi-Language Content</li>
+								<li><i class="bi bi-check-circle"></i> Unlimited Features</li>
+								<li><i class="bi bi-check-circle"></i> Data backup and recovery</li>
+								<li><i class="bi bi-check-circle"></i>Synced To Cloud Database</li>
+							</ul>
+							<div class="solutek-btn">
+								<a href="#">Choose Plan
+									<div class="solutek-hover-btn hover-bx"></div>
+									<div class="solutek-hover-btn hover-bx2"></div>
+									<div class="solutek-hover-btn hover-bx3"></div>
+									<div class="solutek-hover-btn hover-bx4"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+
+
+<!--==================================================-->
+<!-- end solutek-pricing Area -->
+<!--==================================================-->
+
+
+
+
+
+<!--==================================================-->
+<!-- start solutek-faq Area -->
+<!--==================================================-->
+
+
+<div class="faq-area">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-12">
+				<div class="section-title text-left">
+					<h5 class="section-sub-title">SYNCWAVE CORPORATION</h5>
+					<h1 class="section-main-title">Empowering Your</h1>
+					<h1 class="section-main-title">Business with <span>Technology.</span></h1>
+				</div>
+				<div class="faq-thumb">
+					<img src="assets/images/faq1.png" alt="faq1">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<div class="tab_container">
+					<div class="feq-content">
+						<h3 class="faq-title">Your IT <span>Questions Answered.</span></h3>
+						<p class="faq-description">
+							We provide strategic IT consulting, digital transformation, and scalable technology solutions
+							to help businesses grow securely and efficiently.
+						</p>
+					</div>
+					<div id="tab1" class="tab_content">
+						<ul class="accordion">
+							<li>
+								<a class=""><span>What IT Services Do You Provide?</span></a>
+								<p style="display: none;">
+									We offer end-to-end IT consultancy services including software development,
+									cloud solutions, cybersecurity, system integration, and ongoing technical support
+									to ensure seamless business operations.
+								</p>
+							</li>
+							<li>
+								<a><span>Which Industries Do You Work With?</span></a>
+								<p>
+									Our expertise spans multiple industries such as finance, healthcare, e-commerce,
+									education, manufacturing, and startups, delivering tailored technology solutions
+									for each sector.
+								</p>
+							</li>
+							<li>
+								<a><span>How Do You Ensure Data Security & Reliability?</span></a>
+								<p>
+									We follow industry best practices, implement robust security frameworks,
+									and use modern infrastructure to ensure data protection, high availability,
+									and business continuity.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="faq-shape">
+			<img src="assets/images/faq2.png" alt="faq2">
+		</div>
+		<div class="faq-shape2">
+			<img src="assets/images/faq3.png" alt="faq2">
+		</div>
+	</div>
+</div>
+
+
+
+<!--==================================================-->
+<!-- end solutek-faq Area -->
+<!--==================================================-->
+
+
+
+
+
+
+<!--==================================================-->
+<!-- Start solutek testimonial Area -->
+<!--==================================================-->
+
+<!-- <div class="testimonial-area">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="section-title text-center">
-					<h5 class="section-sub-title">CLIENTS FEEDBACK</h5>
-					<h1 class="section-main-title">Perspectives and Experiences</h1>
+					<h5 class="section-sub-title">TESTIMONIALS</h5>
+					<h1 class="section-main-title">What Our Customer <span>Says</span></h1>
 				</div>
 			</div>
 			<div class="row">
@@ -695,81 +763,75 @@
 					<div class="col-lg-12 col-md-12">
 						<div class="testi-box">
 							<div class="testi-single-box">
-								<div class="testi-box-inner">
-									<div class="testi-icon">
-										<img src="assets/images/testi1.png" alt="testi1">
-									</div>
-									<div class="testi-content">
-										<p class="testi-desc">paradigms. Monotonectally extend open-source
-										mvia competitive methods of empowerment dri
-										revolutionize stand- business</p>
-										<ul class="testi-rating">
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-										</ul>
-										<h3 class="testi-user-name">D. Hosain Al-Amin<span>DEVELOPER</span></h3>
-									</div>
+								<div class="testi-icon">
+									<img src="{{ asset('assets/images/testi1.png') }}" alt="testi1">
 								</div>
-								<div class="testi-author">
-									<img src="assets/images/home-two/test-autor.png" alt="testi">
+								<div class="testi-content">
+									<p class="testi-text">paradigms. Monotonectally extend open-source
+									mvia competitive methods of empowerment dri
+									revolutionize stand- business</p>
+									<ul class="testi-rating">
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+									</ul>
+									<h3 class="testi-title">Alberta Infantino <span>DEVELOPER</span></h3>
 								</div>
+							</div>
+							<div class="testi-author">
+								<img src="{{ asset('assets/images/testi4.png') }}" alt="testi4">
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-12 col-md-12">
 						<div class="testi-box">
 							<div class="testi-single-box">
-								<div class="testi-box-inner">
-									<div class="testi-icon">
-										<img src="assets/images/testi1.png" alt="testi">
-									</div>
-									<div class="testi-content">
-										<p class="testi-desc">paradigms. Monotonectally extend open-source
-										mvia competitive methods of empowerment dri
-										revolutionize stand- business</p>
-										<ul class="testi-rating">
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-										</ul>
-										<h3 class="testi-user-name">D. Jackline Techie<span>UI DESIGNER</span></h3>
-									</div>
+								<div class="testi-icon">
+									<img src="{{ asset('assets/images/testi1.png') }}" alt="testi1">
 								</div>
-								<div class="testi-author">
-									<img src="assets/images/home-two/test-autor2.png" alt="testi2">
+								<div class="testi-content">
+									<p class="testi-text">paradigms. Monotonectally extend open-source
+									mvia competitive methods of empowerment dri
+									revolutionize stand- business</p>
+									<ul class="testi-rating">
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+									</ul>
+									<h3 class="testi-title">Hosain Al-Amin <span>DEVELOPER</span></h3>
 								</div>
+							</div>
+							<div class="testi-author">
+								<img src="{{ asset('assets/images/testi5.png') }}" alt="testi4">
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-12 col-md-12">
 						<div class="testi-box">
 							<div class="testi-single-box">
-								<div class="testi-box-inner">
-									<div class="testi-icon">
-										<img src="assets/images/testi1.png" alt="testi1">
-									</div>
-									<div class="testi-content">
-										<p class="testi-desc">paradigms. Monotonectally extend open-source
-										mvia competitive methods of empowerment dri
-										revolutionize stand- business</p>
-										<ul class="testi-rating">
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-											<li><i class="bi bi-star-fill"></i></li>
-										</ul>
-										<h3 class="testi-user-name">Ms. Serana Belluci<span>MARKETING</span></h3>
-									</div>
+								<div class="testi-icon">
+									<img src="{{ asset('assets/images/testi1.png') }}" alt="testi1">
 								</div>
-								<div class="testi-author">
-									<img src="assets/images/home-two/test-autor3.png" alt="testi3">
+								<div class="testi-content">
+									<p class="testi-text">paradigms. Monotonectally extend open-source
+									mvia competitive methods of empowerment dri
+									revolutionize stand- business</p>
+									<ul class="testi-rating">
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+										<li><i class="bi bi-star-fill"></i></li>
+									</ul>
+									<h3 class="testi-title">M.Kamrul Islam <span>DEVELOPER</span></h3>
 								</div>
+							</div>
+							<div class="testi-author">
+								<img src="{{ asset('assets/images/testi6.png') }}" alt="testi4">
 							</div>
 						</div>
 					</div>
@@ -777,98 +839,75 @@
 			</div>
 		</div>
 	</div>
-</div>
-
-<!--==================================================-->
-<!-- end solutek testimonial Area style-two-->
-<!--==================================================-->
-
+</div> -->
 
 
 
 <!--==================================================-->
-<!-- start project-area styl-three -->
+<!-- end solutek testimonial Area -->
 <!--==================================================-->
 
-<div class="project-area style-three">
+
+
+
+
+<!--==================================================-->
+<!-- Start solutek contact Area -->
+<!--==================================================-->
+
+<div class="contact-area">
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-7">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
 				<div class="section-title text-left">
-					<h5 class="section-sub-title">OUR PROJECT NOW</h5>
-					<h1 class="section-main-title">The Essence of Our Easy</h1>
-					<h1 class="section-main-title">Working Process</h1>
+					<h5 class="section-sub-title">CONTACT US</h5>
+					<h1 class="section-main-title">Make an Online Appoinemnt Booking</h1>
+					<h1 class="section-main-title">For Business Planing.</h1>
+				</div>
+					<div class="contact_from_box">
+						<form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form_box">
+										<input type="text" name="name" placeholder="Your Name *">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form_box">
+										<input type="email" name="email" placeholder="Your E-Mail *">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form_box">
+										<input type="text" name="subject" placeholder="Subject *">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form_box">
+										<input type="text" name="phone" placeholder="Phone *">
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="form_box">
+										<textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+									</div>
+									<div class="quote_button">
+										<button class="btn" type="submit">SEND NOW <i class="bi bi-arrow-right"></i></button>
+									</div>
+								</div>
+							</div>
+						</form>
+					<div id="status" class="error"></div>
 				</div>
 			</div>
-			<div class="col-lg-5">
-				<div class="section-title text-left">
-					<p class="section-des">paradigms monotonectally extend open-source creative design
-						mvia competitive methods of empowerment dri it solutions for
-						revolutionize stand- business clean.
-					</p>
+			<!-- <div class="col-lg-6">
+				<div class="contact-box">
+					<div class="contact-video-icon">	
+						<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=Wx48y_fOfiY">Play</a>
+					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
-		<div class="row project-bs">
-			<div class="col-xl-3 col-lg-4 col-md-6">
-				<div class="project-single-box box-1">
-					<div class="project-icon">
-						<img src="assets/images/home-two/project-icon.png" alt="icon">
-					</div>
-					<div class="projects-content">
-						<h4 class="project-title"><a href="{{ route('projectdetails') }}">Requirement</a></h4>
-						<p class="project-des">Paradigms open-source in
-							working process.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6">
-				<div class="project-single-box box-2">
-					<div class="project-icon">
-						<img src="assets/images/home-two/project-icon2.png" alt="icon">
-					</div>
-					<div class="projects-content">
-						<h4 class="project-title"><a href="{{ route('projectdetails') }}">UI/UX Design</a></h4>
-						<p class="project-des">Paradigms open-source in
-							working process.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6">
-				<div class="project-single-box box-3">
-					<div class="project-icon">
-						<img src="assets/images/home-two/project-icon3.png" alt="icon">
-					</div>
-					<div class="projects-content">
-						<h4 class="project-title"><a href="{{ route('projectdetails') }}">Prototype</a></h4>
-						<p class="project-des">Paradigms open-source in
-							working process.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-xl-3 col-lg-4 col-md-6">
-				<div class="project-single-box down box-4">
-					<div class="project-icon">
-						<img src="assets/images/home-two/project-icon4.png" alt="icon">
-					</div>
-					<div class="projects-content">
-						<h4 class="project-title"><a href="{{ route('projectdetails') }}">Development</a></h4>
-						<p class="project-des">Paradigms open-source in
-							working process.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="project-bg-shape1 moveLeftBounce">
-		<img src="assets/images/home-two/project-rs.png" alt="shpae">
-	</div>
-	<div class="project-bg-shape2 bounce-animate3">
-		<img src="assets/images/home-two/project-ws.png" alt="shpae">
 	</div>
 </div>
 
@@ -876,92 +915,103 @@
 
 
 <!--==================================================-->
-<!-- Start solutek blog Area style-two-->
+<!-- end solutek contact Area -->
 <!--==================================================-->
 
-<div class="blog-area style-two">
+
+
+
+
+
+<!--==================================================-->
+<!-- Start solutek blog Area -->
+<!--==================================================-->
+
+<!-- <div class="blog-area">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-lg-12">
-				<div class="section-title text-center">
-					<h5 class="section-sub-title">LATEST NEWS & BLOG</h5>
-					<h1 class="section-main-title">Your Source for Every Update</h1>
+			<div class="col-lg-6">
+				<div class="section-title text-left">
+					<h5 class="section-sub-title">OUR LATEST BLOG</h5>
+					<h1 class="section-main-title">Exploring Its Potential in</h1>
+					<h1 class="section-main-title">Various <span>Industries.</span></h1>
+				</div>
+			</div>
+			<div class="col-lg-6">
+                    <div class="project-right">
+                    	<div class="solutek-btn">
+                        	<a href="#">VIEW  all post
+							<div class="solutek-hover-btn hover-bx"></div>
+							<div class="solutek-hover-btn hover-bx2"></div>
+							<div class="solutek-hover-btn hover-bx3"></div>
+							<div class="solutek-hover-btn hover-bx4"></div>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-blog-box">
-					<div class="single-blog-thumb">
-						<img src="assets/images/home-two/blog-thu.png" alt="thumb">
-						<div class="blog-meta-top">
-							<a href="{{ route('blogdetails') }}">UI/UX DESIGNER</a>
-						</div>
+			<div class="col-xl-5 col-lg-6 col-md-6">
+				<div class="blog-singele-box">
+					<div class="blog-thumb">
+						<img src="{{ asset('assets/images/blog1.png') }}" alt="blog1">
 					</div>
-					<div class="blog-box-content">
-					   <div class="meta-blog">
-						  <a href="{{ route('blogdetails') }}"><span><i class="far fa-user"></i>HOSSAIN ASIF</span></a>
-						  <p><span><img src="assets/images/home-two/mesage-icon.png" alt="icon"></span>COMMENTS</p>
+					<div class="blog-content">
+						<div class="blog-date">
+							<h4><i class="bi bi-calendar2-check"></i>20 June 2024 <span><i class="bi bi-chat-left-text"></i>Comment-05</span></h4>
 						</div>
-						<h3><a href="{{ route('blogdetails') }}">Regional Manager limited time
-							management.
-						</a></h3>
-						<div class="blog-button">
-							<a class="btn-2" href="{{ route('blogdetails') }}">read post</a>
+                        	<h3 class="blog-title"><a href="#">Leveraging Descriptive Solutions for Business Growth.</a></h3>
+						<p class="blog-tex">Appropriatel promote enterprise-wide vortals throuh in information
+						without equity best  revolutioniz</p>
+                        	<div class="blog-btn">
+                            <a href="#">READ MORE<i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-blog-box">
-					<div class="single-blog-thumb">
-						<img src="assets/images/home-two/blog-thu2.png" alt="thumb">
-						<div class="blog-meta-top">
-							<a href="{{ route('blogdetails') }}">WEB DEVELOPER</a>
-						</div>
+			<div class="col-xl-7 col-lg-6 col-md-6">
+				<div class="blog-singele-box-tow">
+					<div class="blog-thumb-tow">
+						<img src="{{ asset('assets/images/blog2.png') }}" alt="blog1">
 					</div>
-					<div class="blog-box-content">
-					   <div class="meta-blog">
-						  <a href="{{ route('blogdetails') }}"><span><i class="far fa-user"></i>HOSSAIN ASIF</span></a>
-						  <p><span><img src="assets/images/home-two/mesage-icon.png" alt="icon"></span>COMMENTS</p>
+					<div class="blog-content-tow">
+						<div class="blog-date-tow">
+							<h4><i class="bi bi-calendar2-check"></i>20 June 2024 <span><i class="bi bi-chat-left-text"></i>Comment-05</span></h4>
 						</div>
-						<h3><a href="{{ route('blogdetails') }}">The Complete Guide to Tekone
-							App Development
-						</a></h3>
-						<div class="blog-button">
-							<a class="btn-2" href="{{ route('blogdetails') }}">read post</a>
+                        	<h3 class="blog-title-two"><a href="#">How to Create Modern Web Site For Your Business..</a></h3>
+						<p class="blog-tex-tow">Appropriatel promote enterprise-wide throuh in information
+						without best  revolutioniz</p>
+                        	<div class="blog-btn-tow">
+                            <a href="#">READ MORE<i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-blog-box">
-					<div class="single-blog-thumb">
-						<img src="assets/images/home-two/blog-thu3.png" alt="thumb">
-						<div class="blog-meta-top">
-							<a href="{{ route('blogdetails') }}">WEB DESIGNER</a>
-						</div>
+				<div class="blog-singele-box-tow">
+					<div class="blog-thumb-tow">
+						<img src="{{ asset('assets/images/blog3.png') }}" alt="blog1">
 					</div>
-					<div class="blog-box-content">
-					   <div class="meta-blog">
-						  <a href="{{ route('blogdetails') }}"><span><i class="far fa-user"></i>HOSSAIN ASIF</span></a>
-						  <p><span><img src="assets/images/home-two/mesage-icon.png" alt="icon"></span>COMMENTS</p>
+					<div class="blog-content-tow">
+						<div class="blog-date-tow">
+							<h4><i class="bi bi-calendar2-check"></i>20 June 2024 <span><i class="bi bi-chat-left-text"></i>Comment-05</span></h4>
 						</div>
-						<h3><a href="{{ route('blogdetails') }}">Easy and Most Powerful Server
-							and Platform.
-						</a></h3>
-						<div class="blog-button">
-							<a class="btn-2" href="{{ route('blogdetails') }}">read post</a>
+                        	<h3 class="blog-title-two"><a href="#">How to Create Modern Web Site For Your Business..</a></h3>
+						<p class="blog-tex-tow">Appropriatel promote enterprise-wide throuh in information
+						without best  revolutioniz</p>
+                        	<div class="blog-btn-tow">
+                            <a href="#">READ MORE<i class="bi bi-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
+
+
+
 
 <!--==================================================-->
-<!-- end solutek blog Area style-two-->
+<!-- end solutek blog Area -->
 <!--==================================================-->
 
 
@@ -980,7 +1030,7 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="address-box">
 					<div class="address-icon">
-						<img src="assets/images/address1.png" alt="address1">
+						<img src="{{ asset('assets/images/address1.png') }}" alt="address1">
 					</div>
 					<div class="address-title">
 						<h3>Elevating Customer Experience.</h3>
@@ -990,7 +1040,7 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="address-box2">
 					<div class="address-icon">
-						<img src="assets/images/address2.png" alt="address1">
+						<img src="{{ asset('assets/images/address2.png') }}" alt="address1">
 					</div>
 					<div class="solutek-btn">
 						<a href="{{ route('contact') }}">+91-9081908145

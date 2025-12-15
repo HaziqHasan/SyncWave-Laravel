@@ -80,13 +80,13 @@
 					<div id="status" class="error"></div>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<!-- <div class="col-lg-6">
 				<div class="contact-box">
 					<div class="contact-video-icon">	
 						<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=Wx48y_fOfiY">Play</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </div>
@@ -160,5 +160,33 @@
 <!--==================================================-->
 <!-- end solutek address Area -->
 <!--==================================================-->
+
+
+<script>
+document.getElementById("dreamit-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = document.querySelector('input[name="name"]').value;
+    const email = document.querySelector('input[name="email"]').value;
+    const subject = document.querySelector('input[name="subject"]').value;
+    const phone = document.querySelector('input[name="phone"]').value;
+    const message = document.querySelector('textarea[name="message"]').value;
+
+    const whatsappMessage =
+        `Hello, I would like to contact you.%0A%0A` +
+        `Name: ${name}%0A` +
+        `Email: ${email}%0A` +
+        `Phone: ${phone}%0A` +
+        `Subject: ${subject}%0A%0A` +
+        `Message:%0A${message}`;
+
+    const whatsappURL = `https://wa.me/91${9826779100}?text=${whatsappMessage}`;
+
+    window.open(whatsappURL, "_blank");
+});
+</script>
+
+
+
 
 @endsection

@@ -497,7 +497,7 @@ nav.solutek_menu span {
   background-position: center;
 }
 
-.feature-sinble-single-box:after {
+/* .feature-sinble-single-box:after {
   position: absolute;
   content: "";
   height: 100%;
@@ -512,12 +512,12 @@ nav.solutek_menu span {
   bottom: 0;
   transform: perspective(500px) rotateX(-90deg);
   opacity: 0;
-}
+} */
 
-.feature-sinble-single-box:hover:after {
+/* .feature-sinble-single-box:hover:after {
   transform: perspective(500px) rotateX(0deg);
   opacity: 1;
-}
+} */
 
 .feature-icon {
   width: 75px;
@@ -541,7 +541,7 @@ nav.solutek_menu span {
   content: "";
   height: 100%;
   width: 100%;
-  background: #171a2b;
+  /* background: #171a2b; */
   left: 0;
   top: 0;
   border-radius: 50%;
@@ -582,13 +582,13 @@ p.feature-text {
   filter: brightness(0) invert(1);
 }
 
-.feature-sinble-single-box:hover h3.feature-title {
+/* .feature-sinble-single-box:hover h3.feature-title {
   color: #fff;
 }
 
 .feature-sinble-single-box:hover p.feature-text {
   color: #fff;
-}
+} */
 
 /*=====================================
 <--  end solutek feature Area Css -->
@@ -889,7 +889,7 @@ h1.section-main-title2 {
 }
 
 .quote_button button {
-  background: #ff3d00;
+  background: #050a1e;
   padding: 14px 48px 14px;
   border-radius: 30px;
   transition: 0.5s;
@@ -1396,7 +1396,7 @@ h4.about-title {
   content: "";
   height: 100%;
   width: 100%;
-  background: url(../../assets/images/service6.png);
+  /* background: url(../../assets/images/service6.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1436,7 +1436,7 @@ p.service-text {
   display: inline-block;
   font-size: 15px;
   line-height: 26px;
-  color: #ffff;
+  color: #050a1e;
   font-weight: 600;
   text-decoration: none;
 }
@@ -1470,13 +1470,13 @@ p.service-text {
   filter: brightness(0) invert(1);
 }
 
-.service-single-box:hover h3.service-title {
+/* .service-single-box:hover h3.service-title {
   color: #fff;
 }
 
 .service-single-box:hover p.service-text {
   color: #fff;
-}
+} */
 
 .service-single-box:hover .service-btn i {
   color: #fff;

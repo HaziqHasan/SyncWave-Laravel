@@ -481,7 +481,7 @@
 <!-- Start solutek testimonial Area style-four-->
 <!--==================================================-->
 
-<div class="testimonial-area style-four">
+<!-- <div class="testimonial-area style-four">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-5">
@@ -579,7 +579,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--==================================================-->
 <!-- end solutek testimonial Area style-four-->
@@ -591,7 +591,7 @@
 <!--==================================================-->
 <!--start solutek working proces area -->
 <!--==================================================-->
-<div class="working-proces-area">
+<!-- <div class="working-proces-area">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -653,7 +653,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--==================================================-->
 <!--end solutek working proces area -->
@@ -666,7 +666,7 @@
 <!-- start solutek-faq Area style-two-->
 <!--==================================================-->
 
-<div class="faq-area style-two">
+<!-- <div class="faq-area style-two">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-md-12">
@@ -706,7 +706,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--==================================================-->
 <!-- end solutek-faq Area style-two-->
@@ -720,7 +720,7 @@
 <!-- Start solutek blog Area style-two-->
 <!--==================================================-->
 
-<div class="blog-area style-two">
+<!-- <div class="blog-area style-two">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-12">
@@ -799,7 +799,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--==================================================-->
 <!-- end solutek blog Area style-two-->

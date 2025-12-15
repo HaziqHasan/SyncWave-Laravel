@@ -2,8 +2,6 @@
 
 @section('content4')
 
-
-
 <!--==================================================-->
 <!-- Start solutek breadcumb Area -->
 <!--==================================================-->
@@ -12,11 +10,11 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="breadcumb-content">
-					<h4>Faq</h4>
+					<h4>FAQ</h4>
 					<ul class="breadcumb-list">
 						<li><a href="#">Home</a></li>
 						<li class="list-arrow">&lt;</li>
-						<li>Faq</li>
+						<li>FAQ</li>
 					</ul>
 				</div>
 			</div>
@@ -28,10 +26,6 @@
 <!-- end solutek breadcumb Area -->
 <!--==================================================-->
 
-
-
-
-
 <!--==================================================-->
 <!-- start solutek-faq Area -->
 <!--==================================================-->
@@ -41,9 +35,9 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 col-md-12">
 				<div class="section-title text-left">
-					<h5 class="section-sub-title">SOLUTEK COMPANY</h5>
-					<h1 class="section-main-title">Keeping Your Business</h1>
-					<h1 class="section-main-title">Safe and <span>Available.</span></h1>
+					<h5 class="section-sub-title">SYNCWAVE CORPORATION</h5>
+					<h1 class="section-main-title">Empowering Your</h1>
+					<h1 class="section-main-title">Business with <span>Technology.</span></h1>
 				</div>
 				<div class="faq-thumb">
 					<img src="assets/images/faq1.png" alt="faq1">
@@ -52,32 +46,37 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="tab_container">
 					<div class="feq-content">
-						<h3 class="faq-title">A Comprehensive <span>Guide.</span></h3>
-						<p class="faq-description">Alternative innovation network environmental whiteboard pursue  for premier 
-						methods empowerment  go forward opportunities</p>
+						<h3 class="faq-title">Your IT <span>Questions Answered.</span></h3>
+						<p class="faq-description">
+							We provide strategic IT consulting, digital transformation, and scalable technology solutions
+							to help businesses grow securely and efficiently.
+						</p>
 					</div>
 					<div id="tab1" class="tab_content">
 						<ul class="accordion">
 							<li>
-								<a class=""><span>What Medical Services Do You Provide?</span></a>
-								<p style="display: none;">Appropriately promote enterprise-wide vortals throuh innovative information
-								evolve go forward markets whereas synergistic applications power full
-								sound quality vectors without equity invested best practices revolutionize
-								enterprise-wide vortals through innovative.</p>
+								<a class=""><span>What IT Services Do You Provide?</span></a>
+								<p style="display: none;">
+									We offer end-to-end IT consultancy services including software development,
+									cloud solutions, cybersecurity, system integration, and ongoing technical support
+									to ensure seamless business operations.
+								</p>
 							</li>
 							<li>
-								<a><span>What is your customer geography?</span></a>
-								<p>Appropriately promote enterprise-wide vortals throuh innovative information
-								evolve go forward markets whereas synergistic applications power full
-								sound quality vectors without equity invested best practices revolutionize
-								enterprise-wide vortals through innovative.</p>
+								<a><span>Which Industries Do You Work With?</span></a>
+								<p>
+									Our expertise spans multiple industries such as finance, healthcare, e-commerce,
+									education, manufacturing, and startups, delivering tailored technology solutions
+									for each sector.
+								</p>
 							</li>
 							<li>
-								<a><span>What are the main industries we serve?</span></a>
-								<p> Appropriately promote enterprise-wide vortals throuh innovative information
-								evolve go forward markets whereas synergistic applications power full
-								sound quality vectors without equity invested best practices revolutionize
-								enterprise-wide vortals through innovative.</p>
+								<a><span>How Do You Ensure Data Security & Reliability?</span></a>
+								<p>
+									We follow industry best practices, implement robust security frameworks,
+									and use modern infrastructure to ensure data protection, high availability,
+									and business continuity.
+								</p>
 							</li>
 						</ul>
 					</div>
@@ -97,16 +96,9 @@
 <!-- end solutek-faq Area -->
 <!--==================================================-->
 
-
-
-
-
-
-
 <!--==================================================-->
 <!-- Start solutek address Area -->
 <!--==================================================-->
-
 
 <div class="address-area">
 	<div class="container">
@@ -117,7 +109,7 @@
 						<img src="assets/images/address1.png" alt="address1">
 					</div>
 					<div class="address-title">
-						<h3>Elevating Customer Experience.</h3>
+						<h3>Driving Innovation Through IT Solutions.</h3>
 					</div>
 				</div>
 			</div>
@@ -139,9 +131,6 @@
 		</div>
 	</div>
 </div>
-
-
-
 
 <!--==================================================-->
 <!-- end solutek address Area -->

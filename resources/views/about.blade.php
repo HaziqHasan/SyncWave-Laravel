@@ -36,11 +36,11 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="section-title text-left">
-					<h5 class="section-sub-title">SOLUTEK COMPANY</h5>
+					<h5 class="section-sub-title">SYNCWAVE CORPORATION</h5>
 					<h1 class="section-main-title">We Can Clients With The</h1>
 					<h1 class="section-main-title">About <span>Solution.</span></h1>
-					<p class="section-title-descr">Monotonectally repurpose maintainable infrastruct whereas solutek in
-						fermentum quis tempo sapien maximus design.
+					<p class="section-title-descr">Where your interests international networks intersect provide
+							custom software solutions for any value software.
 					</p>
 				</div>
 				<div class="about-us-content">
@@ -107,7 +107,7 @@
 <!-- start solutek project Area style-two -->
 <!--==================================================-->
 
-<div class="project-area style-two">
+<!-- <div class="project-area style-two">
 	<div class="container-fluid">
 		<div class="row project align-items-center">
 			<div class="col-lg-6">
@@ -255,7 +255,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--==================================================-->
 <!-- end solutek project Area style-two-->

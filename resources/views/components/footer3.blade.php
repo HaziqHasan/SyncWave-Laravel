@@ -10,9 +10,9 @@
           <div class="footer-logo">
             <a href="{{ route('index') }}"><img src="assets/images/footer-logo.png" alt="footer-logo"></a>
           </div>
-          <p class="footer-widget-text">Globally monetize plug-and-play data it solu
-          monotonectally disseminate oriented busine
-          multifunctional mind design.</p>
+          <p class="footer-widget-text"> We deliver innovative IT consulting and digital solutions that help businesses
+  streamline operations, enhance security, and scale with confidence in a
+  rapidly evolving technology landscape.</p>
           <div class="footer-social">
             <div class="footer-widget-social">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -23,19 +23,20 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-2 col-md-6 col-sm-6">
-        <div class="footer-widget left">
-          <div class="widget-title">
-            <h2>Useful Links</h2>
-          </div>
-          <ul>
-                 <li><a href="{{ route('about') }}">About Company</a></li>
-                <li><a href="{{ route('team') }}">Meet Our Team</a></li>
-                <li><a href="{{ route('contact') }}">Contact Us</a></li>
-                <li><a href="{{ route('faq') }}">FAQ</a></li>
-          </ul>
-        </div>
-      </div>
+    <div class="col-lg-2 col-md-6 col-sm-6">
+  <div class="footer-widget left">
+    <div class="widget-title">
+      <h2>Useful Links</h2>
+    </div>
+    <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Blog & Insights</a></li>
+    </ul>
+  </div>
+</div>
+
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="footer-widget left">
           <div class="widget-title">
@@ -54,9 +55,8 @@
           <div class="widget-title">
             <h2>Newsletter</h2>
           </div>
-          <p class="newsletter-text">Globally monetize plug-and-play data it solu
-          monotonectally disseminate oriented busine
-          multifunctional mind design.</p>
+          <p class="newsletter-text"> Building smart, scalable, and secure IT solutions that drive innovation,
+  efficiency, and long-term business success.</p>
           <div class="Subscribe-form2">
             <form>
               <div class="form-field2">

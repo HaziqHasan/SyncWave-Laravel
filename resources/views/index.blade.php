@@ -58,9 +58,8 @@
 							<img src="{{ asset('assets/images/feature1.png') }}" alt="feature1">
 						</div>
 						<div class="feature-content">
-							<h3 class="feature-title">Data Security</h3>
-							<p class="feature-text">Monotonectally SyncWave Corporation in
-							fermentum quis</p>
+							<h3 class="feature-title">Cybersecurity Services</h3>
+							<p class="feature-text">Protect your business from evolving cyber threats with our full-spectrum cybersecurity services</p>
 						</div>
 					</div>
 					<div class="feature-sinble-single-box">
@@ -69,8 +68,7 @@
 						</div>
 						<div class="feature-content">
 							<h3 class="feature-title">Digital Marketing</h3>
-							<p class="feature-text">Monotonectally SyncWave Corporation in
-							fermentum quis</p>
+							<p class="feature-text">Grow your brand with data-driven digital marketing strategies designed to boost visibility</p>
 						</div>
 					</div>
 					<div class="feature-sinble-single-box">
@@ -78,9 +76,8 @@
 							<img src="{{ asset('assets/images/feature3.png') }}" alt="feature1">
 						</div>
 						<div class="feature-content">
-							<h3 class="feature-title">IT Consultation</h3>
-							<p class="feature-text">Monotonectally SyncWave Corporation in
-							fermentum quis</p>
+							<h3 class="feature-title">Agentic AI </h3>
+							<p class="feature-text"> Empower your business with next-generation Agentic AI systems that autonomously plan</p>
 						</div>
 					</div>
 					<div class="feature-sinble-single-box">
@@ -88,9 +85,8 @@
 							<img src="{{ asset('assets/images/feature4.png') }}" alt="feature1">
 						</div>
 						<div class="feature-content">
-							<h3 class="feature-title">Cloud Services</h3>
-							<p class="feature-text">Monotonectally SyncWave Corporation in
-							fermentum quis</p>
+							<h3 class="feature-title">ERP Solutions</h3>
+							<p class="feature-text"> Streamline and automate your business operations with our powerful ERP solutions</p>
 						</div>
 					</div>
 					<div class="feature-sinble-single-box">
@@ -98,9 +94,8 @@
 							<img src="{{ asset('assets/images/feature5.png') }}" alt="feature1">
 						</div>
 						<div class="feature-content">
-							<h3 class="feature-title">Technology</h3>
-							<p class="feature-text">Monotonectally SyncWave Corporation in
-							fermentum quis</p>
+							<h3 class="feature-title">Robotic Automation</h3>
+							<p class="feature-text">Automate repetitive, rule-based tasks and streamline your business operations with our advanced RPA solutions</p>
 						</div>
 					</div>
 				</div>
@@ -136,8 +131,7 @@
 						<h5 class="section-sub-title">SyncWave Corporation</h5>
 						<h1 class="section-main-title">Essential IT Solutions For</h1>
 						<h1 class="section-main-title">Modern <span>Businesses.</span></h1>
-						<p class="section-title-descr">Monotonectally repurpose maintainable infrastruct whereas Syncwave in
-						fermentum quis tempo sapien maximus design.</p>
+						<p class="section-title-descr">We secure your systems, data, and network with proactive monitoring.</p>
 					</div>
 					<div class="about-box d-flex align-items-center">
 						<div class="about-icon">
@@ -148,8 +142,7 @@
 						</div>
 					</div>
 					<div class="about-text">
-						<p>Monotonectally repurpose maintainable infrastruct whereas SyncWave in
-						fermentum quis tempo sapien maximus design.</p>
+						<p>Build smart AI agents that automate complex tasks and run your business processes intelligently.</p>
 					</div>
 					<div class="solutek-btn">
 						<a href="{{ route('about') }}">EXPLORE MORE
@@ -189,15 +182,27 @@
 			<div class="col-xl-3 col-lg-4 col-md-6">
 				<div class="service-single-box">
 					<div class="service-icon">
+						<img src="{{ asset('assets/images/service2.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">CyberSecurity</h3>
+						<p class="service-text"> We secure your systems, data, and network with proactive monitoring.</p>
+						<div class="service-btn">
+							<a href="{{ route('servicedetails.cybersecurity') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
 						<img src="{{ asset('assets/images/service1.png') }}" alt="service1">
 					</div>
 					<div class="service-content">
 						<h3 class="service-title">Web Development</h3>
-						<p class="service-text">Marketing repurpose success in
-						professions whereas in services
-						sapien maximus design.</p>
+						<p class="service-text"> We build fast, secure, and visually appealing websites tailored to your business needs.</p>
 						<div class="service-btn">
-							<a href="{{ route('servicedetails') }}"><i class="fas fa-plus"></i> READ MORE</a>
+							<a href="{{ route('servicedetails.webdev')}}"><i class="fas fa-plus"></i> READ MORE</a>
 						</div>
 					</div>
 				</div>
@@ -208,12 +213,10 @@
 						<img src="{{ asset('assets/images/service2.png') }}" alt="service1">
 					</div>
 					<div class="service-content">
-						<h3 class="service-title">IT Management</h3>
-						<p class="service-text">Marketing repurpose success in
-						professions whereas in services
-						sapien maximus design.</p>
+						<h3 class="service-title">Agentic AI Solutions</h3>
+						<p class="service-text"> Empower business with next-generation Agentic AI systems that autonomously plan.</p>
 						<div class="service-btn">
-							<a href="{{ route('servicedetails') }}"><i class="fas fa-plus"></i> READ MORE</a>
+							<a href="{{ route('servicedetails.agenticai') }}"><i class="fas fa-plus"></i> READ MORE</a>
 						</div>
 					</div>
 				</div>
@@ -225,11 +228,23 @@
 					</div>
 					<div class="service-content">
 						<h3 class="service-title">Digital Marketing</h3>
-						<p class="service-text">Marketing repurpose success in
-						professions whereas in services
-						sapien maximus design.</p>
+						<p class="service-text">Boost your online visibility with targeted digital strategies built for conversions.</p>
 						<div class="service-btn">
-							<a href="{{ route('servicedetails') }}"><i class="fas fa-plus"></i> READ MORE</a>
+							<a href="{{ route('servicedetails.digital') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service2.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">App Development</h3>
+						<p class="service-text">We develop intuitive, scalable apps that deliver amazing user experiences and business value.</p>
+						<div class="service-btn">
+							<a href="{{  route('servicedetails.appdev') }}"><i class="fas fa-plus"></i> READ MORE</a>
 						</div>
 					</div>
 				</div>
@@ -240,12 +255,38 @@
 						<img src="{{ asset('assets/images/service4.png') }}" alt="service1">
 					</div>
 					<div class="service-content">
-						<h3 class="service-title">App Development</h3>
-						<p class="service-text">Marketing repurpose success in
-						professions whereas in services
-						sapien maximus design.</p>
+						<h3 class="service-title">ERP Solutions</h3>
+						<p class="service-text">Centralize business operations with a fully integrated ERP system to your needs.</p>
 						<div class="service-btn">
-							<a href="{{ route('servicedetails') }}"><i class="fas fa-plus"></i> READ MORE</a>
+							<a href="{{ route('servicedetails.erp')  }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service4.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">Data Engineering</h3>
+						<p class="service-text">We build robust data pipelines, secure dataflows for decision-making at scale.</p>
+						<div class="service-btn">
+							<a href="{{  route('servicedetails.data') }}"><i class="fas fa-plus"></i> READ MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6">
+				<div class="service-single-box">
+					<div class="service-icon">
+						<img src="{{ asset('assets/images/service3.png') }}" alt="service1">
+					</div>
+					<div class="service-content">
+						<h3 class="service-title">Robotic Automation</h3>
+						<p class="service-text">Our bots work 24/7, reduce errors, and free your team to focus on high-value work.</p>
+						<div class="service-btn">
+							<a href="{{  route('servicedetails.data') }}"><i class="fas fa-plus"></i> READ MORE</a>
 						</div>
 					</div>
 				</div>
@@ -275,7 +316,7 @@
 <!-- start solutek project Area -->
 <!--==================================================-->
 
-<div class="project-area">
+<!-- <div class="project-area">
 	<div class="container-fluid">
 		<div class="row project align-items-center">
 			<div class="col-lg-6">
@@ -423,7 +464,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!--==================================================-->
 <!-- end solutek project Area -->
@@ -636,43 +677,48 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6 col-md-12">
 				<div class="section-title text-left">
-					<h5 class="section-sub-title">SyncWave Corporation</h5>
-					<h1 class="section-main-title">Keeping Your Business</h1>
-					<h1 class="section-main-title">Safe and <span>Available.</span></h1>
+					<h5 class="section-sub-title">SYNCWAVE CORPORATION</h5>
+					<h1 class="section-main-title">Empowering Your</h1>
+					<h1 class="section-main-title">Business with <span>Technology.</span></h1>
 				</div>
 				<div class="faq-thumb">
-					<img src="{{ asset('assets/images/faq1.png') }}" alt="faq1">
+					<img src="assets/images/faq1.png" alt="faq1">
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12">
 				<div class="tab_container">
 					<div class="feq-content">
-						<h3 class="faq-title">A Comprehensive <span>Guide.</span></h3>
-						<p class="faq-description">Alternative innovation network environmental whiteboard pursue  for premier 
-						methods empowerment  go forward opportunities</p>
+						<h3 class="faq-title">Your IT <span>Questions Answered.</span></h3>
+						<p class="faq-description">
+							We provide strategic IT consulting, digital transformation, and scalable technology solutions
+							to help businesses grow securely and efficiently.
+						</p>
 					</div>
 					<div id="tab1" class="tab_content">
 						<ul class="accordion">
 							<li>
-								<a class=""><span>What Medical Services Do You Provide?</span></a>
-								<p style="display: none;">Appropriately promote enterprise-wide vortals throuh innovative information
-								evolve go forward markets whereas synergistic applications power full
-								sound quality vectors without equity invested best practices revolutionize
-								enterprise-wide vortals through innovative.</p>
+								<a class=""><span>What IT Services Do You Provide?</span></a>
+								<p style="display: none;">
+									We offer end-to-end IT consultancy services including software development,
+									cloud solutions, cybersecurity, system integration, and ongoing technical support
+									to ensure seamless business operations.
+								</p>
 							</li>
 							<li>
-								<a><span>What is your customer geography?</span></a>
-								<p>Appropriately promote enterprise-wide vortals throuh innovative information
-								evolve go forward markets whereas synergistic applications power full
-								sound quality vectors without equity invested best practices revolutionize
-								enterprise-wide vortals through innovative.</p>
+								<a><span>Which Industries Do You Work With?</span></a>
+								<p>
+									Our expertise spans multiple industries such as finance, healthcare, e-commerce,
+									education, manufacturing, and startups, delivering tailored technology solutions
+									for each sector.
+								</p>
 							</li>
 							<li>
-								<a><span>What are the main industries we serve?</span></a>
-								<p> Appropriately promote enterprise-wide vortals throuh innovative information
-								evolve go forward markets whereas synergistic applications power full
-								sound quality vectors without equity invested best practices revolutionize
-								enterprise-wide vortals through innovative.</p>
+								<a><span>How Do You Ensure Data Security & Reliability?</span></a>
+								<p>
+									We follow industry best practices, implement robust security frameworks,
+									and use modern infrastructure to ensure data protection, high availability,
+									and business continuity.
+								</p>
 							</li>
 						</ul>
 					</div>
@@ -680,10 +726,10 @@
 			</div>
 		</div>
 		<div class="faq-shape">
-			<img src="{{ asset('assets/images/faq2.png') }}" alt="faq2">
+			<img src="assets/images/faq2.png" alt="faq2">
 		</div>
 		<div class="faq-shape2">
-			<img src="{{ asset('assets/images/faq3.png') }}" alt="faq2">
+			<img src="assets/images/faq3.png" alt="faq2">
 		</div>
 	</div>
 </div>
@@ -702,7 +748,7 @@
 <!--==================================================-->
 <!-- Start solutek testimonial Area -->
 <!--==================================================-->
-
+<!-- 
 <div class="testimonial-area">
 	<div class="container">
 		<div class="row">
@@ -793,7 +839,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 
 
@@ -809,62 +855,61 @@
 <!-- Start solutek contact Area -->
 <!--==================================================-->
 
-
-	<div class="contact-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-7">
-					<div class="section-title text-left">
-						<h5 class="section-sub-title">CONTACT US</h5>
-						<h1 class="section-main-title">Make an Online Appoinemnt Booking</h1>
-						<h1 class="section-main-title">For Business Planing.</h1>
-					</div>
-						<div class="contact_from_box">
-							<form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
-								<div class="row">
-									<div class="col-lg-6">
-										<div class="form_box">
-											<input type="text" name="name" placeholder="Your Name *">
-										</div>
-									</div>
-									<div class="col-lg-6">
-										<div class="form_box">
-											<input type="email" name="email" placeholder="Your E-Mail *">
-										</div>
-									</div>
-									<div class="col-lg-6">
-										<div class="form_box">
-											<input type="text" name="subject" placeholder="Subject *">
-										</div>
-									</div>
-									<div class="col-lg-6">
-										<div class="form_box">
-											<input type="text" name="phone" placeholder="Phone *">
-										</div>
-									</div>
-									<div class="col-lg-12">
-										<div class="form_box">
-											<textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-										</div>
-										<div class="quote_button">
-											<button class="btn" type="submit">SENS NOW <i class="bi bi-arrow-right"></i></button>
-										</div>
+<div class="contact-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<div class="section-title text-left">
+					<h5 class="section-sub-title">CONTACT US</h5>
+					<h1 class="section-main-title">Make an Online Appoinemnt Booking</h1>
+					<h1 class="section-main-title">For Business Planing.</h1>
+				</div>
+					<div class="contact_from_box">
+						<form action="https://formspree.io/f/myyleorq" method="POST" id="dreamit-form">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form_box">
+										<input type="text" name="name" placeholder="Your Name *">
 									</div>
 								</div>
-							</form>
-						<div id="status" class="error"></div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-5">
-					<div class="contact-box">
-						<div class="contact-video-icon">	
-							<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=Wx48y_fOfiY">Play</a>
-						</div>
-					</div>
+								<div class="col-lg-6">
+									<div class="form_box">
+										<input type="email" name="email" placeholder="Your E-Mail *">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form_box">
+										<input type="text" name="subject" placeholder="Subject *">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form_box">
+										<input type="text" name="phone" placeholder="Phone *">
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="form_box">
+										<textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+									</div>
+									<div class="quote_button">
+										<button class="btn" type="submit">SEND NOW <i class="bi bi-arrow-right"></i></button>
+									</div>
+								</div>
+							</div>
+						</form>
+					<div id="status" class="error"></div>
 				</div>
 			</div>
+			<!-- <div class="col-lg-6">
+				<div class="contact-box">
+					<div class="contact-video-icon">	
+						<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://www.youtube.com/watch?v=Wx48y_fOfiY">Play</a>
+					</div>
+				</div>
+			</div> -->
 		</div>
 	</div>
+</div>
 
 
 
@@ -1015,5 +1060,31 @@
 <!--==================================================-->
 <!-- end solutek address Area -->
 <!--==================================================-->
+
+<script>
+document.getElementById("dreamit-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = document.querySelector('input[name="name"]').value;
+    const email = document.querySelector('input[name="email"]').value;
+    const subject = document.querySelector('input[name="subject"]').value;
+    const phone = document.querySelector('input[name="phone"]').value;
+    const message = document.querySelector('textarea[name="message"]').value;
+
+    const whatsappMessage =
+        `Hello, I would like to contact you.%0A%0A` +
+        `Name: ${name}%0A` +
+        `Email: ${email}%0A` +
+        `Phone: ${phone}%0A` +
+        `Subject: ${subject}%0A%0A` +
+        `Message:%0A${message}`;
+
+    const whatsappURL = `https://wa.me/91${9826779100}?text=${whatsappMessage}`;
+
+    window.open(whatsappURL, "_blank");
+});
+</script>
+
+
 
 @endsection
